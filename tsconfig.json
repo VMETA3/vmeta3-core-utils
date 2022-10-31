@@ -2,10 +2,8 @@
   "extends": "./extends.json",
   "compilerOptions": {
     "rootDir": "./src",
-    "outDir": "./dist"
-  },
-  "compilerOptions": {
-    "typeRoots": ["node_modules/@types"]
+    "outDir": "./dist",
+    "types" : [ "node" ]
   },
   "include": [
     "src/**/*"
